@@ -13,6 +13,6 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::prefix('1.1')->group(function () {
+    Route::get('search/tweets.json', 'SearchController')->middleware('auth:api');
 });
