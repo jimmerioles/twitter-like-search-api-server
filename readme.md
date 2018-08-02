@@ -1,4 +1,4 @@
-![randomstoicquotesapi herokuapp com_](https://user-images.githubusercontent.com/9766310/36502408-d12869da-1784-11e8-8953-e39ec5b38f5d.png)
+![screenshot from 2018-08-02 10-01-12](https://user-images.githubusercontent.com/9766310/43558271-29cf6a68-963b-11e8-9849-1db2c5226143.png)
 
 # [Random Stoic Quotes API](https://randomstoicquotesapi.herokuapp.com)
 This [JSON API v1](http://jsonapi.org) compliant Web API provides collection of stoic quotes from notable individuals. Please feel free to use the endpoint for your project. Available in https://randomstoicquotesapi.herokuapp.com
