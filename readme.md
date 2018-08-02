@@ -1,23 +1,24 @@
-![screenshot from 2018-08-02 10-01-12](https://user-images.githubusercontent.com/9766310/43558271-29cf6a68-963b-11e8-9849-1db2c5226143.png)
+![Twitter-like Search API Server](https://user-images.githubusercontent.com/9766310/43558271-29cf6a68-963b-11e8-9849-1db2c5226143.png)
 
-# [Random Stoic Quotes API](https://randomstoicquotesapi.herokuapp.com)
-This [JSON API v1](http://jsonapi.org) compliant Web API provides collection of stoic quotes from notable individuals. Please feel free to use the endpoint for your project. Available in https://randomstoicquotesapi.herokuapp.com
+# [Twitter-like Search API Server](http://twitter-like-search-api-server.herokuapp.com)
+This Web API provides simple dummy tweets data with same JSON response structure with Twitter's Search API. Please feel free to use the endpoint for your project. Available in http://twitter-like-search-api-server.herokuapp.com
 
 Note: Heroku free dynos sleep after 30 minutes of inactivity so sometimes your first request might take a bit longer to receive response.
 
 ## Features
 
-* JSON API v1 compliant
-* CORS compliant
-* Serves author image
+* Uses OAuth2 instead of Oauth v1.1a
+* Same response data structure but simpler
 
 ## Built With
-* Laravel 5.5
+* Laravel 5.6
+* OAuth2
 
 ## Usage
 
 ### API Endpoints
-![Endpoints](https://user-images.githubusercontent.com/9766310/33596375-75660918-d9d6-11e7-92c3-8a6dd430d097.png)
+![Endpoints](https://user-images.githubusercontent.com/9766310/43558474-471ed09e-963c-11e8-9489-0c572a2a852e.png)
+
 
 ### Sample API Request
 ``` bash
