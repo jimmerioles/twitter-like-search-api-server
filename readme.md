@@ -7,7 +7,7 @@ Note: Heroku free dynos sleep after 30 minutes of inactivity so sometimes your f
 
 ## Features
 
-* Uses OAuth2 instead of Oauth v1.1a
+* Uses OAuth2 instead of Oauth v1.0a
 * Same response data structure but simpler
 
 ## Built With
