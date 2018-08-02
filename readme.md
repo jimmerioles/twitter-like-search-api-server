@@ -16,6 +16,10 @@ Note: Heroku free dynos sleep after 30 minutes of inactivity so sometimes your f
 
 ## Usage
 
+### Access Token
+
+Create account and generate Personal Access Token. API consumers should specify their access token as a Bearer token in the Authorization header of their request.
+
 ### API Endpoints
 ![Endpoints](https://user-images.githubusercontent.com/9766310/43558474-471ed09e-963c-11e8-9489-0c572a2a852e.png)
 
