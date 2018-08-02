@@ -22,7 +22,6 @@ Note: Heroku free dynos sleep after 30 minutes of inactivity so sometimes your f
 
 ### Sample API Request
 ``` bash
-curl --header "Accept: application/vnd.api+json" https://randomstoicquotesapi.herokuapp.com/api/v1/quotes
 $ curl --request GET 
  --url 'http://twitter-like-search-api-server.herokuapp.com/api/1.1/search/tweets.json?q=julie' 
  --header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImY0NjQzMzc4NDI4YjVhMDRmMjdlMmFiM2MyNWVmYzA3ZjM2Mzc5Mzc4ZWJkOTlmNGYxMzVhODE3OGRmOWQyMGQ1ZjJkOGI2YjM2MGM1Y2Y1In0.eyJhdWQiOiIxIiwianRpIjoiZjQ2NDMzNzg0MjhiNWEwNGYyN2UyYWIzYzI1ZWZjMDdmMzYzNzkzNzhlYmQ5OWY0ZjEzNWE4MTc4ZGY5ZDIwZDVmMmQ4YjZiMzYwYzVjZjUiLCJpYXQiOjE1MzMxNzYzODYsIm5iZiI6MTUzMzE3NjM4NiwiZXhwIjoxNTY0NzEyMzg2LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.UMi-0NgCBCrYAhMOsStJBQtPruryB7_8FBnsnmQ76JQgcLR8uwc-yTw9WE21MJ0g6Ro7HryYTshYez16PiPffW-ieg-rGGSY-R2SLc1NkyqRD5x2kpQGki-7k346mNFUf-mRJezySSPVFp98xNkYJw-I86B7GeM4zq1rtpxiXJ3SHAUqXjOTS9hTWM_2DbAdSr66M-3yYjZS8IY_6adUcXSj2fQonrdb9kyCuLZ-QpcWhZIXPjlnRPV0ONBASf_AHReNnrzhzbh13jbKpEYK3dnnzhPibNJMTuqNUU5uAkMDSJs2rt4EPnh3k-1wzBDH1Ch86Rt3FpYTZlfk7cQmquRllnkJjJS99x22LZjm9K-AVfPBFtu7DjBpj0w8QHwLgty1ZDHLzNxrhcuYL9qWrquqnDoWrX6lUOWgNxMJnfn0oeNoMWPElZDtKZmihZgSpRruWf5Hu3VqHOJLpCr06aC9plV65In9WPT0izc15bChO-pB8DFNHruZ5uOazJhmNyacUV4ZrguTsBCnD34lnPKkgL7q5RfVCEoRbd5vlkMwHqzKNmEM9zw33H9LhAfSlatNKxK0_Boorlq2gNyGdX9szgJ09rPvFUZioi93OHzXn6w7OSrsA3O08vLLNugEveG2NMb7NfALOxm6Di8LeUKQN23tf_ooGlJtIuGXDig'
@@ -30,7 +29,8 @@ $ curl --request GET
 ```
 
 ### Sample API Response
-![Response](https://user-images.githubusercontent.com/9766310/33598117-8e0e2396-d9dc-11e7-81cd-d23c0bb17a2e.png)
+![Response](https://user-images.githubusercontent.com/9766310/43559018-b3dc248c-963e-11e8-842c-f3bcef56a0f7.png)
+
 
 ## Change log
 
